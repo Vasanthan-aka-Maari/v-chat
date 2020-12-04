@@ -1,0 +1,75 @@
+.post {
+  width: 500px;
+  padding: 10px 0;
+  background-color: white;
+  border: 1px solid #dfdfdf;
+  margin: 1rem 0;
+}
+.post-header {
+  padding: 0 10px 5px;
+  border-bottom: 1px solid #dfdfdf;
+  display: flex;
+  align-items: center;
+}
+.post-header p {
+  margin-left: 20px;
+  font-size: medium;
+  font-weight: bold;
+}
+.post-body {
+  border-bottom: 1px solid #dfdfdf;
+}
+.post-body img {
+  width: 100%;
+  object-fit: contain;
+  border-bottom: 1px solid #dfdfdf;
+}
+.post-body p {
+  margin-left: 1rem;
+  padding: 5px 0;
+}
+.post-bottom {
+  padding: 5px 10px 5px;
+
+  width: 100%;
+}
+.post-option {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 5px;
+}
+.comments {
+  padding: 5px 10px;
+}
+.comments p {
+  font-weight: normal;
+  font-size: 15px;
+  padding: 5px 0;
+}
+.comments span {
+  font-weight: bold;
+}
+.comment-box {
+  width: 100%;
+}
+.comment-box form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.comment-box form input {
+  flex: 1;
+  width: 320px;
+  padding: 5px;
+  border: 2px solid #8b8b8b;
+  border-radius: 5px;
+  outline: none;
+}
+.comment-box form input:focus {
+  border: 2px solid #3429cf;
+}
+.comment-box form button {
+  color: #3429cf;
+  font-weight: bold;
+}

@@ -1,0 +1,32 @@
+.header {
+  height: 8vh;
+  padding: 5px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #dfdfdf;
+  background-color: #fff;
+}
+.header img {
+  width: 100px;
+  object-fit: contain;
+}
+.button-container {
+  display: flex;
+  align-items: center;
+}
+.button-container button {
+  padding: 10px 15px;
+  font-size: 14px;
+  background-color: #333666;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+.button-container span {
+  color: #3b26f1;
+  margin-left: 10px;
+}
